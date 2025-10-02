@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#iphoneCanvas {
+  display: flex;
+  flex-direction: column;
+  max-width: 26.875rem;
+  height: 57.5rem;
+  border-radius: 20px;
+  border: 3px solid gray;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#innerScreen {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  width: 98%;
+  height: 99%;
+  background-image: url("imgs/iphone background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: auto;
+}
+#Camera {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 10px;
+  width: 30%;
+  height: 30px;
+  background-color: #000;
+  border-radius: 20px;
+  margin: 20px;
+}
+#Camera_Indicator {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  background-color: #0c1115;
+  border-radius: 10px;
+}
+#content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+  height: 80%;
+  background-color: transparent;
+}
+.folder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+  border-radius: 20px;
+}
+.icon-APP {
+  width: 4rem;
+  height: 4rem;
+  margin: 5px;
+  background-image: url("imgs/yt.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+#Important_Apps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+  margin: 10px;
+  width: 90%;
+  height: 12%;
+  border-radius: 20px;
+}
+.background {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+}
+.widget {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+  margin: 1rem;
+  background-image: url("imgs/sSpRBgLpaLn_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.phone-APP {
+  width: 4rem;
+  height: 4rem;
+  margin: 5px;
+  background-image: url("imgs/980278040.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
